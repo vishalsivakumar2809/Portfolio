@@ -280,14 +280,10 @@ img {
         font-size: 18px;
     }
 
-	/* hide the image completely */
-	.home-image {
-		display: none;
-	}
 
 
     /* matrix scaling */
     .grid-container {
-        transform: scale(1); /* zoom out slightly on phones */
+        display: none;
     }
 }
