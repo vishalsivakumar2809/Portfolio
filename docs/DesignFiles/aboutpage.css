@@ -261,6 +261,18 @@ section {
     color: lightgreen;
 }
 
+.section-text h2 > a:hover {
+    color: rgb(0, 255, 0);
+}
+
+.title-block h2 {
+    font-style: normal;
+    font-size: 1.2rem;
+    color: lightgreen;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
 /* ---------- MOBILE / PORTRAIT SECTION FIXES ---------- */
 @media (max-width: 768px), (orientation: portrait) {
 
